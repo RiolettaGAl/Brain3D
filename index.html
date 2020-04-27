@@ -77,13 +77,19 @@
 
 				if (selected == "man") {
 					model["man"].scene.visible = true;
+					model["man"].scene.position.y = 0;
+					
 					model["cat"].scene.visible = false;
-
+					model["cat"].scene.position.y = 10;
+					
 					camera.position.set( 3, 2, 3 );
 				} 
 				if (selected == "cat") {
 					model["man"].scene.visible = false;
+					model["man"].scene.position.y = 10;
+					
 					model["cat"].scene.visible = true;
+					model["cat"].scene.position.y = 0;
 
 					camera.position.set( 1, 1, 4 );
 				}
@@ -247,6 +253,7 @@
                     function ( gltf ) {
 						gltf.scene.rotation.x = -1.55;
 						gltf.scene.visible = false;
+			    			gltf.scene.position.y = 10;
 
                         scene.add( gltf.scene );
 
@@ -269,6 +276,7 @@
                     function ( gltf ) {
 						gltf.scene.rotation.x = -1.55;
 						gltf.scene.visible = true;
+			   			gltf.scene.position.y = 0;
 
                         scene.add( gltf.scene );
 
