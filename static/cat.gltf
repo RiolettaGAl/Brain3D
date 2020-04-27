@@ -1,0 +1,944 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.0.5",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "cerebellum",
+            "scale" : [
+                1.0605970621109009,
+                1,
+                1.1401783227920532
+            ],
+            "translation" : [
+                1.064527153968811,
+                -0.005595207214355469,
+                0.1253662109375
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "olfactory_tract",
+            "translation" : [
+                -0.3532629609107971,
+                0.0021900576539337635,
+                -0.20831598341464996
+            ]
+        },
+        {
+            "mesh" : 2,
+            "name" : "hemisphaerium_cerebrium",
+            "rotation" : [
+                0,
+                -0.06562317162752151,
+                0,
+                0.9978444576263428
+            ],
+            "scale" : [
+                0.8173808455467224,
+                0.8197926878929138,
+                0.6676698923110962
+            ],
+            "translation" : [
+                0.07863964140415192,
+                0,
+                -0.09109583497047424
+            ]
+        },
+        {
+            "mesh" : 3,
+            "name" : "bulbus_olfactorius"
+        },
+        {
+            "mesh" : 4,
+            "name" : "pons",
+            "translation" : [
+                1.023834466934204,
+                0,
+                -0.20414407551288605
+            ]
+        },
+        {
+            "mesh" : 5,
+            "name" : "myelencephalon",
+            "translation" : [
+                1.2438684701919556,
+                0,
+                -0.26812922954559326
+            ]
+        },
+        {
+            "mesh" : 6,
+            "name" : "spinal_cord",
+            "translation" : [
+                1.6927615404129028,
+                0,
+                -0.4253031015396118
+            ]
+        },
+        {
+            "mesh" : 7,
+            "name" : "mesencephalon",
+            "translation" : [
+                0.729440450668335,
+                -0.00434777932241559,
+                -0.23801639676094055
+            ]
+        },
+        {
+            "mesh" : 8,
+            "name" : "diencephalon",
+            "translation" : [
+                0.4171896278858185,
+                0.00018457783153280616,
+                -0.23242582380771637
+            ]
+        },
+        {
+            "mesh" : 9,
+            "name" : "corpus_callosum",
+            "rotation" : [
+                0.49682870507240295,
+                -0.5031513571739197,
+                -0.5031512975692749,
+                0.4968286454677582
+            ],
+            "scale" : [
+                1.6191256046295166,
+                0.9476956129074097,
+                1.6191256046295166
+            ],
+            "translation" : [
+                0.3801628649234772,
+                0.007708355784416199,
+                0.006486743688583374
+            ]
+        },
+        {
+            "mesh" : 10,
+            "name" : "hemisphaerium_cerebrium1",
+            "rotation" : [
+                0,
+                -0.06562317162752151,
+                0,
+                0.9978444576263428
+            ],
+            "scale" : [
+                0.8173808455467224,
+                -0.8197926878929138,
+                0.6676698327064514
+            ],
+            "translation" : [
+                0.07863964140415192,
+                0,
+                -0.09109583497047424
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Mc_hemisphaerium_cerebri",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.2831488251686096,
+                    0.2501583397388458,
+                    0.11443543434143066,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Mc_olfactory_peduncle",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.2831488251686096,
+                    0.2501583397388458,
+                    0.11443543434143066,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Mc_cerebellum",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.2831488251686096,
+                    0.2501583397388458,
+                    0.11443543434143066,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Mc_bulbus_olfactorius",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.2831488251686096,
+                    0.2501583397388458,
+                    0.11443543434143066,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Mc_pons",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.2831488251686096,
+                    0.2501583397388458,
+                    0.11443543434143066,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Mc_myelencephalon",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.2831488251686096,
+                    0.2501583397388458,
+                    0.11443543434143066,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Mc_spinal_cord",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.2831488251686096,
+                    0.2501583397388458,
+                    0.11443543434143066,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Mc_bulbus_olfactorius.001",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.2831488251686096,
+                    0.2501583397388458,
+                    0.11443543434143066,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Mc_diencephalon",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.2831488251686096,
+                    0.2501583397388458,
+                    0.11443543434143066,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "M_corpus_callosum",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.2831488251686096,
+                    0.2501583397388458,
+                    0.11443543434143066,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Mc_cerebellum1",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.2831488251686096,
+                    0.2501583397388458,
+                    0.11443543434143066,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "cerebellum",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "olfactory_tract",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 3,
+                        "NORMAL" : 4
+                    },
+                    "indices" : 5,
+                    "material" : 1
+                }
+            ]
+        },
+        {
+            "name" : "hemisphaerium_cerebri",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 6,
+                        "NORMAL" : 7
+                    },
+                    "indices" : 8,
+                    "material" : 2
+                }
+            ]
+        },
+        {
+            "name" : "bulbus_olfactorius",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 9,
+                        "NORMAL" : 10
+                    },
+                    "indices" : 11,
+                    "material" : 3
+                }
+            ]
+        },
+        {
+            "name" : "pons",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 12,
+                        "NORMAL" : 13
+                    },
+                    "indices" : 14,
+                    "material" : 4
+                }
+            ]
+        },
+        {
+            "name" : "myelencephalon",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 15,
+                        "NORMAL" : 16
+                    },
+                    "indices" : 17,
+                    "material" : 5
+                }
+            ]
+        },
+        {
+            "name" : "spinal_cord",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 18,
+                        "NORMAL" : 19
+                    },
+                    "indices" : 20,
+                    "material" : 6
+                }
+            ]
+        },
+        {
+            "name" : "mesencephalon",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 21,
+                        "NORMAL" : 22
+                    },
+                    "indices" : 23,
+                    "material" : 7
+                }
+            ]
+        },
+        {
+            "name" : "diencephalon",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 24,
+                        "NORMAL" : 25
+                    },
+                    "indices" : 26,
+                    "material" : 8
+                }
+            ]
+        },
+        {
+            "name" : "corpus_callosum",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 27,
+                        "NORMAL" : 28,
+                        "TEXCOORD_0" : 29
+                    },
+                    "indices" : 30,
+                    "material" : 9
+                }
+            ]
+        },
+        {
+            "name" : "hemisphaerium_cerebri1",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 31,
+                        "NORMAL" : 32
+                    },
+                    "indices" : 8,
+                    "material" : 10
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 25862,
+            "max" : [
+                0.2845013439655304,
+                0.30272066593170166,
+                0.19668114185333252
+            ],
+            "min" : [
+                -0.3294296860694885,
+                -0.2915302515029907,
+                -0.2541208863258362
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 25862,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5123,
+            "count" : 155136,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 13505,
+            "max" : [
+                0.5777422189712524,
+                0.24423253536224365,
+                0.1968642622232437
+            ],
+            "min" : [
+                -0.529387891292572,
+                -0.23581524193286896,
+                -0.1633664220571518
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 13505,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5123,
+            "count" : 77964,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 24578,
+            "max" : [
+                1.271921992301941,
+                0.8588151335716248,
+                1.0766414403915405
+            ],
+            "min" : [
+                -1.0535380840301514,
+                -0.018629929050803185,
+                -0.660304069519043
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5126,
+            "count" : 24578,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5123,
+            "count" : 147456,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 11009,
+            "max" : [
+                -0.8775037527084351,
+                0.1626804918050766,
+                0.05928073823451996
+            ],
+            "min" : [
+                -1.0394349098205566,
+                -0.1626804918050766,
+                -0.20540419220924377
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 11009,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5123,
+            "count" : 64512,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 12,
+            "componentType" : 5126,
+            "count" : 16752,
+            "max" : [
+                0.14436054229736328,
+                0.3099619746208191,
+                0.21199895441532135
+            ],
+            "min" : [
+                -0.20139539241790771,
+                -0.3099622130393982,
+                -0.179105743765831
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 13,
+            "componentType" : 5126,
+            "count" : 16752,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 14,
+            "componentType" : 5123,
+            "count" : 97440,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 15,
+            "componentType" : 5126,
+            "count" : 5118,
+            "max" : [
+                0.23295414447784424,
+                0.2646186053752899,
+                0.14961788058280945
+            ],
+            "min" : [
+                -0.13056540489196777,
+                -0.2646186053752899,
+                -0.15355250239372253
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 16,
+            "componentType" : 5126,
+            "count" : 5118,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 17,
+            "componentType" : 5123,
+            "count" : 27648,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 18,
+            "componentType" : 5126,
+            "count" : 5886,
+            "max" : [
+                0.08415687084197998,
+                0.1822543740272522,
+                0.1832738071680069
+            ],
+            "min" : [
+                -0.23854196071624756,
+                -0.18225440382957458,
+                -0.11492335796356201
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 19,
+            "componentType" : 5126,
+            "count" : 5886,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 20,
+            "componentType" : 5123,
+            "count" : 33792,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 21,
+            "componentType" : 5126,
+            "count" : 6910,
+            "max" : [
+                0.1485620141029358,
+                0.3023049831390381,
+                0.14781764149665833
+            ],
+            "min" : [
+                -0.12099349498748779,
+                -0.2936094105243683,
+                -0.1561402678489685
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 22,
+            "componentType" : 5126,
+            "count" : 6910,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 23,
+            "componentType" : 5123,
+            "count" : 38400,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 24,
+            "componentType" : 5126,
+            "count" : 11325,
+            "max" : [
+                0.23752543330192566,
+                0.3081396222114563,
+                0.20217181742191315
+            ],
+            "min" : [
+                -0.27740734815597534,
+                -0.3085087835788727,
+                -0.19153116643428802
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 25,
+            "componentType" : 5126,
+            "count" : 11325,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 26,
+            "componentType" : 5123,
+            "count" : 64884,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 27,
+            "componentType" : 5126,
+            "count" : 9978,
+            "max" : [
+                0.04072380065917969,
+                0.07475844025611877,
+                0.1524108648300171
+            ],
+            "min" : [
+                -0.04036220163106918,
+                -0.15484267473220825,
+                -0.20338013768196106
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 28,
+            "componentType" : 5126,
+            "count" : 9978,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 29,
+            "componentType" : 5126,
+            "count" : 9978,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 30,
+            "componentType" : 5123,
+            "count" : 58416,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 31,
+            "componentType" : 5126,
+            "count" : 24578,
+            "max" : [
+                1.271921992301941,
+                0.8588151335716248,
+                1.0766414403915405
+            ],
+            "min" : [
+                -1.0535380840301514,
+                -0.018629929050803185,
+                -0.660304069519043
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 32,
+            "componentType" : 5126,
+            "count" : 24578,
+            "type" : "VEC3"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 310344,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 310344,
+            "byteOffset" : 310344
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 310272,
+            "byteOffset" : 620688
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 162060,
+            "byteOffset" : 930960
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 162060,
+            "byteOffset" : 1093020
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 155928,
+            "byteOffset" : 1255080
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 294936,
+            "byteOffset" : 1411008
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 294936,
+            "byteOffset" : 1705944
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 294912,
+            "byteOffset" : 2000880
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 132108,
+            "byteOffset" : 2295792
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 132108,
+            "byteOffset" : 2427900
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 129024,
+            "byteOffset" : 2560008
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 201024,
+            "byteOffset" : 2689032
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 201024,
+            "byteOffset" : 2890056
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 194880,
+            "byteOffset" : 3091080
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 61416,
+            "byteOffset" : 3285960
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 61416,
+            "byteOffset" : 3347376
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 55296,
+            "byteOffset" : 3408792
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 70632,
+            "byteOffset" : 3464088
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 70632,
+            "byteOffset" : 3534720
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 67584,
+            "byteOffset" : 3605352
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 82920,
+            "byteOffset" : 3672936
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 82920,
+            "byteOffset" : 3755856
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 76800,
+            "byteOffset" : 3838776
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 135900,
+            "byteOffset" : 3915576
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 135900,
+            "byteOffset" : 4051476
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 129768,
+            "byteOffset" : 4187376
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 119736,
+            "byteOffset" : 4317144
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 119736,
+            "byteOffset" : 4436880
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 79824,
+            "byteOffset" : 4556616
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 116832,
+            "byteOffset" : 4636440
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 294936,
+            "byteOffset" : 4753272
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 294936,
+            "byteOffset" : 5048208
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 5343144,
+            "uri" : "cat.bin"
+        }
+    ]
+}
